@@ -25,17 +25,6 @@
 - **ИИ:** OpenRouter API (генерация текста по описанию и координатам)
 - **Веб:** HTML, JavaScript, Leaflet
 
-## Сборка Android-приложения
-
-1. Откройте проект в Android Studio.
-2. Скопируйте `local.properties.example` → `local.properties`.
-3. Укажите в `local.properties`:
-   - `sdk.dir` — путь к Android SDK;
-   - `OPENROUTER_API_KEY` — ключ [OpenRouter](https://openrouter.ai/keys);
-   - `LLM_MODEL` — ID модели из [каталога OpenRouter](https://openrouter.ai/models).
-4. Добавьте `google-services.json` в `app/` (Firebase Console).
-5. Соберите и запустите на устройстве или эмуляторе.
-
 ## Веб-сайт
 
 Статические файлы в `EcoSite/public/`. Публикация через Firebase Hosting (`EcoSite/firebase.json`).
