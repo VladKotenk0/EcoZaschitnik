@@ -1,0 +1,30 @@
+*.iml
+.gradle
+.idea/
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+secrets.properties
+.kotlin
+
+# Firebase / IDE
+*.log
+*.apk
+*.aab
+
+# Python / temp
+__pycache__/
+*.pyc
+_temp_*
+_vkr_*
+
+# Thesis / office docs (keep outside repo)
+docs/
+*.docx
+*.pptx
+*.pdf
+*.zip

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Палитра как на сайте ( [data-theme="dark"] ). Фон экрана → colors_screen.xml -->
+    <color name="app_surface">#1A1D1A</color>
+    <color name="app_surface_soft">#232823</color>
+    <color name="app_surface_overlay">#1A1D1A</color>
+
+    <color name="app_green">#7FB63F</color>
+    <color name="app_green_dark">#B7F36B</color>
+    <color name="app_green_mid">#5E8C61</color>
+    <color name="app_accent">#B7F36B</color>
+    <color name="app_green_bright">#A6D96A</color>
+
+    <color name="app_text">#F4F7F0</color>
+    <color name="app_text_muted">#AEB7A7</color>
+    <color name="app_stroke">#31382F</color>
+    <color name="app_ripple">#33B7F36B</color>
+
+    <color name="app_on_primary">#F4F7F0</color>
+    <color name="app_hero_text">#F4F7F0</color>
+    <color name="app_hero_stroke">#33FFFFFF</color>
+    <color name="app_hero_button_bg">#B7F36B</color>
+    <color name="app_hero_button_text">#111311</color>
+    <color name="app_hero_start">#1A2218</color>
+    <color name="app_hero_center">#2D4A2F</color>
+    <color name="app_hero_end">#3D5C40</color>
+
+    <color name="app_text_muted_on_gradient">#B8C4B8</color>
+    <color name="app_toolbar_bg">#1A1D1A</color>
+    <color name="app_ai_surface">#232823</color>
+    <color name="app_button_disabled_bg">#3A423A</color>
+    <color name="app_button_disabled_text">#7A8578</color>
+    <color name="app_scrim">#99000000</color>
+</resources>

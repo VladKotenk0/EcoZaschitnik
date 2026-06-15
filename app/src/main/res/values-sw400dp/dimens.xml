@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Крупные телефоны -->
+    <dimen name="screen_padding_h">22dp</dimen>
+    <dimen name="card_grid_min_height">172dp</dimen>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTextScreenTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textSize">@dimen/text_screen_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/comfortaa_family</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+
+    <style name="AppTextScreenSubtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text_muted</item>
+        <item name="android:textSize">@dimen/text_screen_subtitle</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:fontFamily">@font/comfortaa_family</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+
+    <style name="AppTextHeroTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_hero_text</item>
+        <item name="android:textSize">@dimen/text_hero_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:fontFamily">@font/comfortaa_family</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+
+    <style name="AppTextCardTitleGrid">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textSize">@dimen/text_card_title_grid</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:fontFamily">@font/comfortaa_family</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+
+    <style name="AppTextCardTitleWide">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textSize">@dimen/text_card_title_wide</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">@font/comfortaa_family</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+
+    <style name="AppTextCardDesc">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text_muted</item>
+        <item name="android:textSize">@dimen/text_card_desc</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:fontFamily">@font/comfortaa_family</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+
+    <style name="AppTextScreenTitleInner" parent="AppTextScreenTitle">
+        <item name="android:textSize">@dimen/text_screen_title_inner</item>
+    </style>
+
+    <style name="AppTextSectionTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textSize">@dimen/text_section_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/comfortaa_family</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+
+    <style name="AppTextScreenSubtitleOnGradient" parent="AppTextScreenSubtitle">
+        <item name="android:textColor">@color/app_text_muted_on_gradient</item>
+    </style>
+
+    <style name="AppTextFieldLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textSize">@dimen/text_card_desc</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="AppTextAiResult">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_ai</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="AppTextMonoCoords">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/app_text</item>
+        <item name="android:textSize">@dimen/text_screen_subtitle</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+</resources>

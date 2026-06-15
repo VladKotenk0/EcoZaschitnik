@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_max_width">9999dp</dimen>
+
+    <dimen name="screen_padding_h">20dp</dimen>
+    <dimen name="screen_padding_top">16dp</dimen>
+    <dimen name="main_padding_top">12dp</dimen>
+    <dimen name="main_padding_bottom">12dp</dimen>
+    <dimen name="toolbar_title_inset">16dp</dimen>
+    <dimen name="toolbar_nav_inset">4dp</dimen>
+    <dimen name="screen_padding_bottom">20dp</dimen>
+
+    <dimen name="text_screen_title">30sp</dimen>
+    <dimen name="text_screen_title_inner">24sp</dimen>
+    <dimen name="text_screen_subtitle">15sp</dimen>
+    <dimen name="text_hero_title">20sp</dimen>
+    <dimen name="text_card_title_grid">15sp</dimen>
+    <dimen name="text_card_title_wide">17sp</dimen>
+    <dimen name="text_card_desc">13sp</dimen>
+    <dimen name="text_section_title">20sp</dimen>
+    <dimen name="text_button">15sp</dimen>
+    <dimen name="text_button_small">14sp</dimen>
+
+    <dimen name="card_padding">14dp</dimen>
+    <dimen name="card_padding_compact">12dp</dimen>
+    <dimen name="card_grid_min_height">168dp</dimen>
+    <dimen name="card_wide_min_height">120dp</dimen>
+    <dimen name="card_gap_horizontal">8dp</dimen>
+    <dimen name="card_icon_size">22dp</dimen>
+    <dimen name="card_icon_slot">28dp</dimen>
+    <dimen name="card_title_margin_top">10dp</dimen>
+    <dimen name="card_desc_margin_top">4dp</dimen>
+
+    <dimen name="hero_padding">14dp</dimen>
+    <dimen name="hero_button_margin_top">10dp</dimen>
+    <dimen name="hero_button_min_height">48dp</dimen>
+    <dimen name="gap_section">10dp</dimen>
+    <dimen name="gap_title_subtitle">4dp</dimen>
+    <dimen name="gap_subtitle_content">12dp</dimen>
+
+    <dimen name="touch_target_min">48dp</dimen>
+    <dimen name="button_min_height">56dp</dimen>
+    <dimen name="button_padding_v">14dp</dimen>
+
+    <dimen name="corner_card">24dp</dimen>
+    <dimen name="corner_button">26dp</dimen>
+    <dimen name="corner_input">18dp</dimen>
+    <dimen name="corner_preview">16dp</dimen>
+    <dimen name="map_panel_padding">14dp</dimen>
+    <dimen name="line_spacing_ai">4dp</dimen>
+    <dimen name="logo_size">40dp</dimen>
+
+    <!-- Тени (светлая тема) -->
+    <dimen name="card_elevation">3dp</dimen>
+    <dimen name="hero_elevation">4dp</dimen>
+</resources>

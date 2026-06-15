@@ -1,0 +1,10 @@
+## Скопируйте в local.properties и заполните значения.
+## Файл local.properties в git не попадает.
+
+sdk.dir=C\:\\Android\\Sdk
+
+# Ключ: https://openrouter.ai/keys
+OPENROUTER_API_KEY=your-openrouter-api-key
+
+# ID модели из каталога OpenRouter: https://openrouter.ai/models
+LLM_MODEL=your-openrouter-model-id

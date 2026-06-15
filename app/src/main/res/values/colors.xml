@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Палитра как на сайте ( :root ). Фон экрана → colors_screen.xml -->
+    <color name="app_surface">#FFFFFF</color>
+    <color name="app_surface_soft">#DCEAD8</color>
+    <color name="app_surface_overlay">#FFFFFF</color>
+
+    <color name="app_green">#5E8C61</color>
+    <color name="app_green_dark">#476B49</color>
+    <color name="app_green_mid">#6B9A6E</color>
+    <color name="app_accent">#B7F36B</color>
+    <color name="app_green_bright">#7FB63F</color>
+
+    <color name="app_text">#1F2A1F</color>
+    <color name="app_text_muted">#6E7A6E</color>
+    <color name="app_text_muted_on_gradient">#556355</color>
+    <color name="app_stroke">#D6DDD2</color>
+    <color name="app_ripple">#335E8C61</color>
+
+    <color name="app_on_primary">#F4F7F0</color>
+    <color name="app_hero_text">#F4F7F0</color>
+    <color name="app_hero_stroke">#4DFFFFFF</color>
+    <!-- Кнопка внутри hero: яркий фон + тёмный текст для контраста -->
+    <color name="app_hero_button_bg">#9AD952</color>
+    <color name="app_hero_button_text">#111311</color>
+    <color name="app_hero_start">#3D5C40</color>
+    <color name="app_hero_center">#5E8C61</color>
+    <color name="app_hero_end">#6B9A6E</color>
+
+    <color name="app_toolbar_bg">#FFFFFF</color>
+    <color name="app_ai_surface">#EEF5EA</color>
+    <color name="app_button_disabled_bg">#B8C9B8</color>
+    <color name="app_button_disabled_text">#8A968A</color>
+    <color name="app_scrim">#66000000</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

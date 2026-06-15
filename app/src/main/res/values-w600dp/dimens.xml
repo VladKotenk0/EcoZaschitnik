@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Планшеты и складные: контент по центру, как на телефоне -->
+    <dimen name="content_max_width">480dp</dimen>
+    <dimen name="screen_padding_h">24dp</dimen>
+</resources>

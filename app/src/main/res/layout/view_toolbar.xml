@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbarHost"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_toolbar"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/toolbarStatusBarSpacer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        android:clipToPadding="false"
+        android:elevation="0dp"
+        app:contentInsetEnd="16dp"
+        app:contentInsetStart="16dp"
+        app:contentInsetStartWithNavigation="16dp"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:navigationIconTint="@color/app_text"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.DayNight"
+        app:titleCentered="false"
+        app:titleMarginBottom="0dp"
+        app:titleMarginTop="0dp"
+        app:titleTextAppearance="@style/AppToolbarTitle"
+        app:titleTextColor="@color/app_text" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Тёмная тема — те же значения, что пресет «Тёмный (как сайт)» -->
+
+    <color name="screen_bg">#111311</color>
+    <color name="screen_glow_accent">#337FB63F</color>
+    <color name="screen_glow_soft">#0AFFFFFF</color>
+    <color name="screen_status_bar">#111311</color>
+    <color name="screen_nav_bar">#111311</color>
+
+    <color name="screen_header_text">#F4F7F0</color>
+    <color name="screen_header_subtitle">#AEB7A7</color>
+
+    <color name="dashboard_surface">#232823</color>
+    <color name="dashboard_stroke">#31382F</color>
+    <color name="dashboard_text">#F4F7F0</color>
+    <color name="dashboard_text_muted">#AEB7A7</color>
+    <color name="dashboard_hero_start">#1A2218</color>
+    <color name="dashboard_hero_end">#2D4A2F</color>
+
+    <color name="badge_new_bg">#335E8C61</color>
+    <color name="badge_new_text">#B7F36B</color>
+    <color name="badge_recent_bg">#33FFC107</color>
+    <color name="badge_recent_text">#FFE082</color>
+    <color name="badge_old_bg">#33FFFFFF</color>
+    <color name="badge_old_text">#C8D0C8</color>
+
+    <color name="app_bg">@color/screen_bg</color>
+    <color name="app_status_bar">@color/screen_status_bar</color>
+    <color name="app_nav_bar">@color/screen_nav_bar</color>
+
+</resources>

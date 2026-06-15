@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    ═══════════════════════════════════════════════════════════════
+    ФОН ЭКРАНА — меняйте значения ниже, затем Build → Rebuild Project
+    ═══════════════════════════════════════════════════════════════
+
+    ■ Тёмный (как сайт) — АКТИВНО:
+    screen_bg #111311 | glow_accent #337FB63F | glow_soft #0AFFFFFF
+
+    ■ Светлый сайт:
+    screen_bg #F4F7F2 | glow #33B7F36B / #0FFFFFFF
+    screen_header_text #1F2A1F | screen_header_subtitle #556355
+
+    ■ Мята: screen_bg #EAF4E8 | glow_accent #4DB7F36B | glow_soft #14FFFFFF
+    ■ Беж: screen_bg #F6F4EE | glow_accent #2AB7F36B | glow_soft #12FFF8F0
+    ═══════════════════════════════════════════════════════════════
+    -->
+
+    <color name="screen_bg">#111311</color>
+    <color name="screen_glow_accent">#337FB63F</color>
+    <color name="screen_glow_soft">#0AFFFFFF</color>
+    <color name="screen_status_bar">#111311</color>
+    <color name="screen_nav_bar">#111311</color>
+
+    <!-- Текст в шапке главного экрана (под фон screen_bg) -->
+    <color name="screen_header_text">#F4F7F0</color>
+    <color name="screen_header_subtitle">#AEB7A7</color>
+
+    <!-- Карточки главного экрана (дашборд) -->
+    <color name="dashboard_surface">#232823</color>
+    <color name="dashboard_stroke">#31382F</color>
+    <color name="dashboard_text">#F4F7F0</color>
+    <color name="dashboard_text_muted">#AEB7A7</color>
+    <!-- Ссылка «Все» на тёмной карточке — контраст ≥ 4.5:1 -->
+    <color name="main_link_accent">#C5F882</color>
+    <color name="dashboard_hero_start">#1A2218</color>
+    <color name="dashboard_hero_end">#2D4A2F</color>
+
+    <color name="badge_new_bg">#335E8C61</color>
+    <color name="badge_new_text">#B7F36B</color>
+    <color name="badge_recent_bg">#33FFC107</color>
+    <color name="badge_recent_text">#FFE082</color>
+    <color name="badge_old_bg">#33FFFFFF</color>
+    <color name="badge_old_text">#C8D0C8</color>
+
+    <color name="app_bg">@color/screen_bg</color>
+    <color name="app_status_bar">@color/screen_status_bar</color>
+    <color name="app_nav_bar">@color/screen_nav_bar</color>
+
+</resources>

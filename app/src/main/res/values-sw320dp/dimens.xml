@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding_h">16dp</dimen>
+    <dimen name="main_padding_top">10dp</dimen>
+    <dimen name="main_padding_bottom">10dp</dimen>
+    <dimen name="screen_padding_bottom">16dp</dimen>
+    <dimen name="card_padding_compact">10dp</dimen>
+    <dimen name="text_screen_title">28sp</dimen>
+    <dimen name="text_hero_title">19sp</dimen>
+    <dimen name="text_card_title_grid">14sp</dimen>
+    <dimen name="text_card_title_wide">16sp</dimen>
+    <dimen name="text_card_desc">12sp</dimen>
+    <dimen name="card_padding">12dp</dimen>
+    <dimen name="card_grid_min_height">160dp</dimen>
+    <dimen name="card_gap_horizontal">6dp</dimen>
+    <dimen name="hero_padding">12dp</dimen>
+    <dimen name="gap_section">8dp</dimen>
+    <dimen name="gap_subtitle_content">10dp</dimen>
+    <dimen name="hero_button_margin_top">8dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="hero_elevation">3dp</dimen>
+    <dimen name="map_panel_padding">10dp</dimen>
+    <dimen name="text_screen_subtitle">14sp</dimen>
+</resources>

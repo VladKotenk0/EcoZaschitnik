@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Страница не найдена — ЭкоЗащитник</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f4f7f2;
+      --surface: #fff;
+      --primary: #5e8c61;
+      --primary-dark: #476b49;
+      --text: #1f2a1f;
+      --text-muted: #6e7a6e;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Manrope", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 1.25rem;
+    }
+    .box {
+      background: var(--surface);
+      border-radius: 16px;
+      padding: 2rem;
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 4px 24px rgba(31, 42, 31, 0.08);
+    }
+    .icon { margin-bottom: 0.75rem; }
+    .icon svg { width: 56px; height: 56px; display: block; margin: 0 auto; border-radius: 14px; }
+    h1 { margin: 0 0 0.5rem; font-size: 1.5rem; }
+    p { color: var(--text-muted); margin: 0 0 1.5rem; line-height: 1.5; }
+    .code { font-size: 3rem; font-weight: 700; color: var(--primary); margin: 0 0 0.25rem; }
+    a {
+      display: inline-block;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+    a:hover { background: var(--primary-dark); }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <p class="code">404</p>
+    <div class="icon" aria-hidden="true">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" focusable="false">
+        <rect width="64" height="64" rx="14" fill="#5e8c61"/>
+        <path fill="#f4f7f0" d="M32 11.5 47.5 18v12.8c0 9.8-7.2 17.2-15.5 20.7C23.7 48 16.5 40.6 16.5 30.8V18L32 11.5z"/>
+        <path fill="#b7f36b" d="M32 19.5c-3.8 5.5-7.5 7.2-7.5 12.2 0 4.2 3.4 7.6 7.5 7.6s7.5-3.4 7.5-7.6c0-5-3.7-6.7-7.5-12.2z"/>
+        <path fill="none" stroke="#7fb63f" stroke-width="2.2" stroke-linecap="round" d="M32 33.5v11"/>
+      </svg>
+    </div>
+    <h1>Страница не найдена</h1>
+    <p>Такой страницы нет. Вернитесь на карту отчётов о свалках.</p>
+    <a href="/">На главную</a>
+  </div>
+</body>
+</html>
